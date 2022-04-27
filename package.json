@@ -1,0 +1,31 @@
+{
+  "name": "covid-spider",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/main.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.1",
+    "cheerio": "^1.0.0-rc.10",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.5"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "prettier": {
+    "printWidth": 160,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
+    "trailingComma": "none",
+    "jsxBracketSameLine": false,
+    "arrowParens": "always",
+    "htmlWhitespaceSensitivity": "ignore"
+  },
+  "projectStandard": "0.0.5"
+}
